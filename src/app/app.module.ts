@@ -1,16 +1,23 @@
-import { NgModule } from '@angular/core';
+import {  NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxAnimatedCounterModule } from '@bugsplat/ngx-animated-counter';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxTypedJsModule,
+    NgxAnimatedCounterModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+
+  
+
+  
+}
