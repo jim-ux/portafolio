@@ -22,6 +22,19 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow
     },
+    screens:{
+      'normal': {'max': '1200px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'small': {'max': '1024px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'tablet': {'max': '768px'},
+      // => @media (max-width: 767px) { ... }
+
+      'phone': {'max': '480px'},
+      // => @media (max-width: 639px) { ... }
+    },
     extend: {},
   },
   plugins: [],
